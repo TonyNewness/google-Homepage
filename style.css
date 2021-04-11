@@ -1,0 +1,110 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+/* Hearder Section */
+
+nav{
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding-left: 8px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 16px;
+    margin-left: 19px;
+}
+/* nav img:hover{
+    
+} */
+
+/* Main Section */
+main{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+main img{
+    height: 90px;
+    margin-top: 100px;
+}
+main input{
+    margin-top: 20px;
+    padding: 13px 160px;
+    border-radius: 2em;
+    border: 0.5px solid rgb(204, 204, 204);
+}
+.buttons{
+    margin-top: 20px;
+}
+
+main img.inner1{
+    position: absolute;
+    right: 0px;
+    left: 32%;
+    top: 32%;
+    height: 19px;
+}
+main img.inner2{
+    position: absolute;
+    right: 0%;
+    left: 66%;
+    height: 19px;
+    top: 32%;
+    /*height: 30px;
+    padding-left: 50%; */
+}
+button{
+    padding: 8px;
+    border: none;
+    margin: 4px;
+    background-color: rgb(248,249,250);
+    color: rgb(53, 52, 52);
+}
+button:hover, input:hover{
+    box-shadow: 0.5px 0.5px rgb(161, 161, 161);
+}
+.offers{
+    margin-top: 20px;
+    font: 14px Calibri;
+}
+.offers a{
+    text-decoration: none;
+    color: darkblue;
+    padding-left: 6px;
+}
+.offers a:hover, .footer2 a:hover{
+    text-decoration: underline;
+}
+
+/* Footer section */
+footer{
+    background-color: rgb(242,242,242);
+    margin: 7.2em 0 auto;
+}
+.footer2 a{
+    text-decoration: none; 
+    color: rgb(73, 72, 72);
+}
+.footer1{
+    padding: 1em;
+    border-bottom: rgb(228, 226, 226) 1px solid;
+}
+.footer2{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left a, .footer-right a{
+    margin-right: 1em;
+}
+.carbon{
+    padding-right: 10em;
+}
